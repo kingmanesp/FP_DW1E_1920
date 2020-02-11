@@ -1,0 +1,15 @@
+Ejercicio que nos de un resultado y esta vez la vamos a guardar en un fichero que no existe  y se nos va a añadir a la operacion anterior
+
+
+
+crear una progresion aritmetica pididiendo al usuario el primer termino y el numero de terminos y la diferencia
+
+1º numeero entero
+
+2ºnumero entero (nº terminos) suma veces que se suma
+
+3º termino es la diferencia o lo que se suma cada vez
+
+vamos a agregar al fichero la fecha y la hora separao por dos **
+
+el directorio en el que va a existir el fichero es Z:/progresion/terminosprogresion.txt
