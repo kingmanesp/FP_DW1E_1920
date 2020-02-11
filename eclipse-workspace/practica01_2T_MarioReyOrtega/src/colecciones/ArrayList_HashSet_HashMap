@@ -1,0 +1,98 @@
+//removeIf
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.removeIf(n -> (n % 3 == 0));
+
+//remove
+// Removes element at 3rd position
+l.remove(2);
+
+//removeRange(fromIndex, toIndex)
+arr.removeRange(0, 2); 
+
+//removeAll
+ArrayList<Integer> l = new ArrayList<>(); 
+l.add(10); 
+l.add(30); 
+l.add(50); 
+l.add(70); 
+l.add(90); 
+
+System.out.println(l); 
+  
+ArrayList<Integer> arr = new ArrayList<>(); 
+arr.add(30); 
+arr.add(50);
+arr.add(90);
+arr.add(100);
+l.removeAll(arr);
+
+//clear() Borra todos los elementos
+ arr.clear();
+
+//get
+arr.get(2); //3rd element
+
+
+//add(obj), add(int indice, obj)
+
+//addAll Appends all of the elements in the specified
+//collection to the end of this list 
+l.addAll(arr);
+
+//clone()
+	// create an empty array list
+	ArrayList<StringBuilder> arrlist1 = new ArrayList<StringBuilder>();
+
+	// use add for new value
+	arrlist1.add(new StringBuilder("Learning-"));
+
+	// using clone to affect the objects pointed to by the references.
+	ArrayList arrlist2 = (ArrayList) arrlist1.clone();
+
+//contains
+boolean ans = arr.contains(2); Busca si el número 2 existe en la lista. Devuelve true o false
+
+//indexOf()
+index(element) -> el índice donde está el elemento
+arr.indexOf(50) -> está en el índice 1
+
+//lastIndex(Collection<E>)
+Returns the last index of the collection
+
+//set(Index,E element)
+  int i = arrlist.set(3, 30); -> En i está el elemento reemplazado. El elemento en posición índice 3 se sustituye por 30
+
+//size()
+Número de elementos en la colección
+int size = list.size();
+
+//isEmpty (¿Está vaío al ArrayList?)
+if(list.isEmpty) -> true or false
+
+//toArray
+	List<Integer> al = new ArrayList<Integer>(); 
+	al.add(10); 
+	al.add(20); 
+	al.add(30); 
+	al.add(40); 
+
+	Object[] objects = al.toArray(); 
+
+	//toArray(T[] a)
+	List<Integer> al = new ArrayList<Integer>(); 
+	al.add(10); 
+	al.add(20); 
+	al.add(30); 
+	al.add(40); 
+
+	Integer[] arr = new Integer[al.size()]; 
+	arr = al.toArray(arr);
+
+//trimToSize() Ajusta el ArrayList a los elementos que existen realmente.
+arr.trimToSize(); 
+
+
+
+
+
+
