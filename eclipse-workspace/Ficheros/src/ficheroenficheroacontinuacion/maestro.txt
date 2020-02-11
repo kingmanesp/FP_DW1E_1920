@@ -1,0 +1,16 @@
+Francisco López, 2345.78
+Elena Fungi, 1234.89
+Carlos Gómez, 1567.23
+Almudena Grandes, 2345.78
+Francisco López, 2345.78
+Elena Fungi, 1234.89
+Carlos Gómez, 1567.23
+Almudena Grandes, 2345.78
+Francisco López, 2345.78
+Elena Fungi, 1234.89
+Carlos Gómez, 1567.23
+Almudena Grandes, 2345.78
+Francisco López, 2345.78
+Elena Fungi, 1234.89
+Carlos Gómez, 1567.23
+Almudena Grandes, 2345.78
